@@ -676,8 +676,11 @@ input[type="text"]:focus {
   }
   body {
     width: 100vw;
+    overflow-x: hidden;
   }
-
+  main {
+    overflow-x: hidden;
+  }
   .container {
     width: 80%;
     margin: 0 auto;
@@ -871,7 +874,9 @@ input[type="text"]:focus {
   body {
     width: 100vw;
   }
-
+  main {
+    overflow-x: hidden;
+  }
   .container {
     width: 80%;
     margin: 0 auto;
@@ -923,7 +928,7 @@ input[type="text"]:focus {
     color: black;
   }
   .navigation-mobile ul li {
-    padding-top: 50px;
+    padding-top: 35px;
     font-size: 18px;
   }
   .mobile-nav .road-asst {
