@@ -1145,11 +1145,12 @@ input[type="text"]:focus {
   .top-brand,
   .bottom-brand {
     display: grid;
-    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
     gap: 12px;
     margin-bottom: 60px;
     cursor: pointer;
     padding: 0 10px;
+    place-items: center;
   }
   #brands h3 {
     font-size: 28px;
